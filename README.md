@@ -47,19 +47,25 @@ users (recommended)
 
 ### 1. Clone the Repository
 
-git clone https://github.com/vaibhavvasant/gesture-reader-pc.git\
+```bash
+git clone https://github.com/vaibhavvasant/gesture-reader-pc.git
 cd gesture-reader-pc
+```
 
 ### 2. Create a Virtual Environment
 
-py -3.10 -m venv venv\
-venv`\Scripts`{=tex}`\activate`{=tex}
+```bash
+py -3.10 -m venv venv
+venv\Scripts\activate
+```
 
 After activation, `(venv)` should appear in the terminal.
 
 ### 3. Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 This installs:
 
@@ -72,7 +78,9 @@ This installs:
 
 ### 4. Run the Application
 
+```bash
 python main.py
+```
 
 A camera window (HUD) will open.
 
