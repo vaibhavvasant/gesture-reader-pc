@@ -1,0 +1,14 @@
+# config.py
+
+# Movement thresholds (pixels)
+SMALL_MOVE_THRESHOLD = 15
+LARGE_MOVE_THRESHOLD = 60
+
+# Cooldowns (seconds)
+SCROLL_COOLDOWN = 0.2
+PAGE_COOLDOWN = 0.8
+ZOOM_COOLDOWN = 0.8
+
+# Scroll amounts
+SMALL_SCROLL_AMOUNT = 5
+LARGE_SCROLL_AMOUNT = 20
